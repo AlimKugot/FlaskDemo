@@ -7,4 +7,4 @@ app = Flask(__name__)
 def hello():
     name = request.args.get("name")
     msg = request.args.get("message")
-    return "Hello " + name + "! " + msg + " !"
+    return "Hello " + name + "! " + msg + "!"
